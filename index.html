@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FirstProject</title>
+    <meta name="keywords" content="sergey, machikhin, cv, resume">
+    <meta name="description" content="Это сайт - резуме Сергея Мачихина">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<div class="container">
+
+    <body>
+        <div class="info">
+            <img src="AVA.jpeg" alt="AVA.jpeg" class="avatar">
+
+            <div class="info-text">
+                <h1>Сергей Мачихин</h1>
+
+                <p>Мне 16 лет, ученик 10 класса, самостоятельно обучаюсь <strong>web-разработке.</strong> </p>
+
+                <p>Поставил себе целью <em>трудоустройство до окончания школы, и дальше парраллельное получение высшего
+                        образования
+                        в ведущем вузе России "ВШЭ"</em></p>
+
+                <h4>Список социальных сетей:</h4>
+
+                <p>
+                    <a href="https://vk.com/machikhinn" target="_blank">VK</a>
+                    |
+                    <a href="https://github.com/Machikhinn" target="_blank">GIT</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="card bg-yellow">
+            <h2>Мои хобби</h2>
+            <ol class="list">
+                <li>Тайский бокс</li>
+                <li>Web-разработка</li>
+                <li>Чтение различной литературы</li>
+                <li>Изучение английского</li>
+            </ol>
+        </div>
+
+        <div class="card bg-red">
+            <h2>Опыт работы</h2>
+
+            <table class="table">
+                <thead>
+                    <th>Место</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Стройка</td>
+                        <td>Разнорабочий</td>
+                        <td>2021-2022</td>
+                    </tr>
+                    <tr>
+                        <td>РЖД</td>
+                        <td>Разнорабочий</td>
+                        <td>2021</td>
+                    </tr>
+                    <tr>
+                        <td>Автомойка</td>
+                        <td>Мойщик</td>
+                        <td>2021-2022</td>
+                    </tr>
+                    <tr>
+                        <td>Есть Суши</td>
+                        <td>Повар-сушист</td>
+                        <td>2022</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <form action="/" class="form">
+            <h2>Связаться со мной</h2>
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Ваше email:</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Ваше сообщение:</label>
+                <textarea type="text" id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+            </div>
+
+            <input class="btn" type="submit" value="Отправить!">
+        </form>
+</div>
+</body>
+
+</html>
